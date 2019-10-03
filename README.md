@@ -12,6 +12,7 @@ A checklist for reviewing PCB's before sending them out to fab.
       - [Fabrication Outputs](#fabrication-outputs)
       - [Report Outputs](#report-outputs)
       - [Validation Outputs](#validation-outputs)
+  - [Common Past Errors](#common-past-errors)
   - [References](#references)
 
 
@@ -78,6 +79,17 @@ A checklist for reviewing PCB's before sending them out to fab.
 #### Validation Outputs
  - Design Rules Check
  - Footprint Comparison Report
+
+## Common Past Errors
+ - Polygon Pours were shelved
+ - Ground Pour not down
+ - Island Polygon on a ground pad
+ - Wrong size or form factor of components
+ - High voltage diff between 2 polygons
+ - Grounds for modem not all routed in schematic
+ - Output enable pulled wrong direction
+ - Output enable pin left floating
+ - Vias too small on connector
 
 
 
