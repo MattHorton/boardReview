@@ -52,6 +52,10 @@ A checklist for reviewing PCB's before sending them out to fab.
    - No net antennas
    - Double check silk screen to solder mask
    - No unrouted nets
+ - Waiving Violations
+   - to waive violations for a component must indiviually select violating primitives
+   - note reason for waiving violation and repeat for all violating primitives
+   - will often happen with footprints that have finer resolution than standard rules allow
  - Are decoupling capacitors and power cap arrays located as close to pins as possible
 
 
