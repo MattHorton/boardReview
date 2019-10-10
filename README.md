@@ -53,6 +53,7 @@ A checklist for reviewing PCB's before sending them out to fab.
    - Double check silk screen to solder mask
    - No unrouted nets
  - Waiving Violations
+   - note: importing rules over existing will destroy all violation waivers created
    - to waive violations for a component must indiviually select violating primitives
    - note reason for waiving violation and repeat for all violating primitives
    - will often happen with footprints that have finer resolution than standard rules allow
